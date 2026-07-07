@@ -126,6 +126,23 @@ class StateStore:
             encoding="utf-8",
         )
 
+    def latest_gemini_file_search_store_name(self) -> str | None:
+        latest_uploaded_at = ""
+        latest_store_name = None
+
+        for record in self._articles.values():
+            upload = record.get("gemini_upload")
+            if not upload:
+                continue
+
+            uploaded_at = upload.get("uploaded_at", "")
+            store_name = upload.get("file_search_store_name")
+            if store_name and uploaded_at >= latest_uploaded_at:
+                latest_uploaded_at = uploaded_at
+                latest_store_name = store_name
+
+        return latest_store_name
+
 
 def _load_state(path: Path) -> dict[str, Any]:
     if not path.exists():

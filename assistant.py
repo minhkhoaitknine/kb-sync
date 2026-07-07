@@ -1,13 +1,35 @@
 import argparse
+from pathlib import Path
 import sys
 
 from src.assistant_config import ask_optibot, create_optibot_assistant
 from src.config import load_settings
 from src.gemini_assistant import ask_gemini_optibot
 from src.gemini_upload import create_file_search_store
+from src.state import StateStore
 
 
 DEFAULT_TEST_QUESTION = "How do I add a YouTube video?"
+
+
+def usable_setting(value: str | None) -> str | None:
+    if not value:
+        return None
+
+    stripped = value.strip()
+    if not stripped or stripped == "..." or stripped.startswith("your_"):
+        return None
+
+    return stripped
+
+
+def resolve_gemini_file_search_store_name(settings) -> str | None:
+    configured_store = usable_setting(settings.gemini_file_search_store_name)
+    if configured_store:
+        return configured_store
+
+    state = StateStore(Path(settings.data_dir) / "state.json")
+    return state.latest_gemini_file_search_store_name()
 
 
 def main() -> None:
@@ -59,12 +81,14 @@ def main() -> None:
         if settings.ai_provider == "gemini":
             if not settings.gemini_api_key:
                 raise SystemExit("GEMINI_API_KEY is required.")
-            if not settings.gemini_file_search_store_name:
+
+            file_search_store_name = resolve_gemini_file_search_store_name(settings)
+            if not file_search_store_name:
                 raise SystemExit("GEMINI_FILE_SEARCH_STORE_NAME is required.")
 
             answer = ask_gemini_optibot(
                 api_key=settings.gemini_api_key,
-                file_search_store_name=settings.gemini_file_search_store_name,
+                file_search_store_name=file_search_store_name,
                 model=settings.gemini_model,
                 question=args.question,
             )

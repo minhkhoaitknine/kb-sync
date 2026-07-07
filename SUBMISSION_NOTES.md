@@ -36,6 +36,7 @@ The overlap keeps nearby context together across chunk boundaries. The chunk siz
 - Run `docker build -t optibot-ingest .`.
 - Run `docker run --rm --env-file .env -v ${PWD}/data:/app/data optibot-ingest`.
 - Run `python assistant.py ask "How do I add a YouTube video?"`.
+- If the first run auto-created a Gemini store, paste the printed `GEMINI_FILE_SEARCH_STORE_NAME` into `.env` and GitHub Actions secrets.
 - Save a screenshot of the assistant answer under `screenshots/`.
 - Add GitHub secrets `GEMINI_API_KEY` and `GEMINI_FILE_SEARCH_STORE_NAME`.
 - Trigger `Daily OptiBot Ingest` manually once and copy the run URL into the README before final submission.

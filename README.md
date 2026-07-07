@@ -16,8 +16,9 @@ Set these values in `.env`:
 ```text
 AI_PROVIDER=gemini
 GEMINI_API_KEY=...
-GEMINI_FILE_SEARCH_STORE_NAME=fileSearchStores/...
 ```
+
+`GEMINI_FILE_SEARCH_STORE_NAME` is optional for the first run. If it is blank, `main.py` creates a Gemini File Search Store, uploads the Markdown files, and prints the generated store name. Paste that value back into `.env` if you want future runs to target the same store explicitly.
 
 `API_KEY` can also be used in Docker/CI as a generic key for the active provider.
 

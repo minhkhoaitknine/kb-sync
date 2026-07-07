@@ -73,6 +73,8 @@ def validate_not_placeholder(
 
     stripped = value.strip()
     if stripped == "..." or stripped.startswith("your_"):
+        if allow_missing:
+            return
         raise SystemExit(f"{name} must be a real value, not placeholder '{stripped}'.")
 
 
@@ -210,8 +212,10 @@ def main() -> None:
                     "reason=missing_gemini_api_key"
                 )
             elif upload_candidates:
-                file_search_store_name = settings.gemini_file_search_store_name
-                if not file_search_store_name or file_search_store_name.startswith("your_"):
+                file_search_store_name = usable_setting(
+                    settings.gemini_file_search_store_name
+                )
+                if not file_search_store_name:
                     file_search_store_name = create_file_search_store(
                         api_key=settings.gemini_api_key,
                         display_name="optibot-support-docs",

@@ -2,6 +2,7 @@
 .env
 __pycache__/
 *.py[cod]
+OptiSigns_Take-Home_Test_Updated.*
 
 data/raw/*
 data/markdown/*

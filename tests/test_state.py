@@ -119,6 +119,30 @@ class StateStoreTests(unittest.TestCase):
             self.assertEqual(delta.status, "skipped")
             self.assertTrue(delta.needs_upload)
 
+    def test_latest_gemini_store_name_comes_from_upload_metadata(self) -> None:
+        with TemporaryDirectory() as temp_dir:
+            state = StateStore(Path(temp_dir) / "state.json")
+            article = sample_article()
+            document = sample_document(Path(temp_dir), "hash-1")
+
+            state.classify(
+                article=article,
+                document=document,
+                upload_key="gemini_upload",
+                upload_target_id="fileSearchStores/current",
+            )
+            state.record_gemini_upload(
+                article.url,
+                file_search_store_name="fileSearchStores/current",
+                operation_name="operations/upload-1",
+                estimated_chunks=3,
+            )
+
+            self.assertEqual(
+                state.latest_gemini_file_search_store_name(),
+                "fileSearchStores/current",
+            )
+
 
 def sample_article() -> Article:
     return Article(

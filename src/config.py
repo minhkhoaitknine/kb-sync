@@ -24,19 +24,31 @@ def load_settings() -> Settings:
 
     return Settings(
         ai_provider=ai_provider,
-        openai_api_key=os.getenv("OPENAI_API_KEY") or provider_api_key(ai_provider, "openai"),
-        openai_vector_store_id=os.getenv("OPENAI_VECTOR_STORE_ID"),
-        openai_assistant_id=os.getenv("OPENAI_ASSISTANT_ID"),
+        openai_api_key=env_setting("OPENAI_API_KEY") or provider_api_key(ai_provider, "openai"),
+        openai_vector_store_id=env_setting("OPENAI_VECTOR_STORE_ID"),
+        openai_assistant_id=env_setting("OPENAI_ASSISTANT_ID"),
         openai_model=os.getenv("OPENAI_MODEL", "gpt-4.1-mini"),
-        gemini_api_key=os.getenv("GEMINI_API_KEY") or provider_api_key(ai_provider, "gemini"),
-        gemini_file_search_store_name=os.getenv("GEMINI_FILE_SEARCH_STORE_NAME"),
+        gemini_api_key=env_setting("GEMINI_API_KEY") or provider_api_key(ai_provider, "gemini"),
+        gemini_file_search_store_name=env_setting("GEMINI_FILE_SEARCH_STORE_NAME"),
         gemini_model=os.getenv("GEMINI_MODEL", "gemini-3.5-flash"),
         article_limit=int(os.getenv("ARTICLE_LIMIT", "30")),
         data_dir=os.getenv("DATA_DIR", "data"),
     )
 
 
+def env_setting(name: str) -> str | None:
+    value = os.getenv(name)
+    if not value:
+        return None
+
+    stripped = value.strip()
+    if not stripped or stripped == "..." or stripped.startswith("your_"):
+        return None
+
+    return stripped
+
+
 def provider_api_key(ai_provider: str, provider: str) -> str | None:
     if ai_provider != provider:
         return None
-    return os.getenv("API_KEY")
+    return env_setting("API_KEY")
