@@ -1,0 +1,57 @@
+name: Daily OptiBot Ingest
+
+on:
+  schedule:
+    - cron: "15 3 * * *"
+  workflow_dispatch:
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Restore scraper state
+        uses: actions/cache/restore@v4
+        with:
+          path: data
+          key: optibot-state-${{ github.run_id }}
+          restore-keys: |
+            optibot-state-
+
+      - name: Prepare data directories
+        run: |
+          mkdir -p data/raw data/markdown
+
+      - name: Build job image
+        run: docker build -t optibot-ingest .
+
+      - name: Run scraper and uploader
+        run: |
+          docker run --rm \
+            -e AI_PROVIDER=gemini \
+            -e API_KEY="${{ secrets.GEMINI_API_KEY }}" \
+            -e GEMINI_FILE_SEARCH_STORE_NAME="${{ secrets.GEMINI_FILE_SEARCH_STORE_NAME }}" \
+            -e GEMINI_MODEL="${{ vars.GEMINI_MODEL || 'gemini-3.5-flash' }}" \
+            -e ARTICLE_LIMIT="${{ vars.ARTICLE_LIMIT || '30' }}" \
+            -v "$PWD/data:/app/data" \
+            optibot-ingest
+
+      - name: Save scraper state
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: data
+          key: optibot-state-${{ github.run_id }}
+
+      - name: Upload last run artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: optibot-last-run
+          path: |
+            data/state.json
+            data/markdown/*.md

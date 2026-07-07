@@ -12,17 +12,11 @@ from src.state import StateStore
 
 
 def has_openai_upload_config(api_key: str | None, vector_store_id: str | None) -> bool:
-    if not api_key or not vector_store_id:
-        return False
-    if api_key.startswith("your_") or vector_store_id.startswith("your_"):
-        return False
-    return True
+    return bool(usable_setting(api_key) and usable_setting(vector_store_id))
 
 
 def has_gemini_upload_config(api_key: str | None) -> bool:
-    if not api_key or api_key.startswith("your_"):
-        return False
-    return True
+    return bool(usable_setting(api_key))
 
 
 def active_upload_target_id(provider: str, settings) -> str | None:
@@ -34,9 +28,52 @@ def active_upload_target_id(provider: str, settings) -> str | None:
 
 
 def usable_setting(value: str | None) -> str | None:
-    if not value or value.startswith("your_"):
+    if not value:
         return None
-    return value
+
+    stripped = value.strip()
+    if not stripped or stripped == "..." or stripped.startswith("your_"):
+        return None
+
+    return stripped
+
+
+def validate_provider_placeholders(settings) -> None:
+    if settings.ai_provider == "gemini":
+        validate_not_placeholder(
+            settings.gemini_api_key,
+            "GEMINI_API_KEY/API_KEY",
+        )
+        validate_not_placeholder(
+            settings.gemini_file_search_store_name,
+            "GEMINI_FILE_SEARCH_STORE_NAME",
+            allow_missing=True,
+        )
+    elif settings.ai_provider == "openai":
+        validate_not_placeholder(
+            settings.openai_api_key,
+            "OPENAI_API_KEY/API_KEY",
+        )
+        validate_not_placeholder(
+            settings.openai_vector_store_id,
+            "OPENAI_VECTOR_STORE_ID",
+        )
+
+
+def validate_not_placeholder(
+    value: str | None,
+    name: str,
+    *,
+    allow_missing: bool = False,
+) -> None:
+    if not value:
+        if allow_missing:
+            return
+        raise SystemExit(f"{name} is required.")
+
+    stripped = value.strip()
+    if stripped == "..." or stripped.startswith("your_"):
+        raise SystemExit(f"{name} must be a real value, not placeholder '{stripped}'.")
 
 
 def main() -> None:
@@ -51,6 +88,7 @@ def main() -> None:
     settings = load_settings()
     if settings.ai_provider not in {"openai", "gemini"}:
         raise SystemExit("AI_PROVIDER must be either 'openai' or 'gemini'.")
+    validate_provider_placeholders(settings)
 
     articles = discover_articles(limit=settings.article_limit)
 
