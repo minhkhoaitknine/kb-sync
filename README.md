@@ -53,3 +53,5 @@ GEMINI_FILE_SEARCH_STORE_NAME
 ```
 
 CI tests run in `.github/workflows/ci.yml`. Screenshot: add the assistant answer screenshot under `screenshots/` before final submission. See `SUBMISSION_NOTES.md` for final review notes.
+
+Last manual run: https://github.com/minhkhoaitknine/kb-sync/actions/runs/28894978545
