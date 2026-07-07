@@ -1,0 +1,666 @@
+{
+  "version": 1,
+  "updated_at": "2026-07-07T18:58:36.643507+00:00",
+  "articles": {
+    "https://support.optisigns.com/hc/en-us/articles/53216900345875-What-Access-Does-OptiSigns-Have-to-My-Account-and-Devices": {
+      "title": "What Access Does OptiSigns Have to My Account and Devices?",
+      "url": "https://support.optisigns.com/hc/en-us/articles/53216900345875-What-Access-Does-OptiSigns-Have-to-My-Account-and-Devices",
+      "slug": "53216900345875-What-Access-Does-OptiSigns-Have-to-My-Account-and-Devices",
+      "source_updated_at": "2026-07-06T15:29:04Z",
+      "content_hash": "e225dc5ef7dc7e44736b873a611d18e49834ee4390b866674514968a1767e784",
+      "markdown_path": "data\\markdown\\53216900345875-What-Access-Does-OptiSigns-Have-to-My-Account-and-Devices.md",
+      "last_seen_at": "2026-07-07T18:58:13.048182+00:00",
+      "openai_upload": {
+        "openai_file_id": "file-928ALCbmswwYhyDHx5R5AV",
+        "vector_store_file_id": "file-928ALCbmswwYhyDHx5R5AV",
+        "vector_store_id": "vs_6a4d3b8079d08191bc47ce2b9f9fd8a3",
+        "estimated_chunks": 2,
+        "uploaded_at": "2026-07-07T18:11:05.070531+00:00"
+      },
+      "gemini_upload": {
+        "file_search_store_name": "fileSearchStores/optibotsupportdocs-p0mr4zehkmoc",
+        "operation_name": "fileSearchStores/optibotsupportdocs-p0mr4zehkmoc/upload/operations/53216900345875whataccessdoe-zkjifs1va2ks",
+        "estimated_chunks": 3,
+        "uploaded_at": "2026-07-07T18:50:17.470634+00:00"
+      }
+    },
+    "https://support.optisigns.com/hc/en-us/articles/53095698149011-Using-the-Japan-Earthquake-App": {
+      "title": "Using the Japan Earthquake App",
+      "url": "https://support.optisigns.com/hc/en-us/articles/53095698149011-Using-the-Japan-Earthquake-App",
+      "slug": "53095698149011-Using-the-Japan-Earthquake-App",
+      "source_updated_at": "2026-07-06T14:22:20Z",
+      "content_hash": "60e82720fb4d4a7dbaa72be5182dabd4ee6a7db9f5db05a4fdab723e4b6ed670",
+      "markdown_path": "data\\markdown\\53095698149011-Using-the-Japan-Earthquake-App.md",
+      "last_seen_at": "2026-07-07T18:58:13.790647+00:00",
+      "openai_upload": {
+        "openai_file_id": "file-CdXgxKkfENKtVAWbmTQ1np",
+        "vector_store_file_id": "file-CdXgxKkfENKtVAWbmTQ1np",
+        "vector_store_id": "vs_6a4d3b8079d08191bc47ce2b9f9fd8a3",
+        "estimated_chunks": 2,
+        "uploaded_at": "2026-07-07T18:11:05.070544+00:00"
+      },
+      "gemini_upload": {
+        "file_search_store_name": "fileSearchStores/optibotsupportdocs-p0mr4zehkmoc",
+        "operation_name": "fileSearchStores/optibotsupportdocs-p0mr4zehkmoc/upload/operations/53095698149011usingthejapan-c46b3ov3h7dk",
+        "estimated_chunks": 2,
+        "uploaded_at": "2026-07-07T18:50:17.470646+00:00"
+      }
+    },
+    "https://support.optisigns.com/hc/en-us/articles/53028011485715-How-to-Display-a-Snowflake-Dashboard-with-OptiSigns": {
+      "title": "How to Display a Snowflake Dashboard with OptiSigns",
+      "url": "https://support.optisigns.com/hc/en-us/articles/53028011485715-How-to-Display-a-Snowflake-Dashboard-with-OptiSigns",
+      "slug": "53028011485715-How-to-Display-a-Snowflake-Dashboard-with-OptiSigns",
+      "source_updated_at": "2026-07-01T21:59:22Z",
+      "content_hash": "96e20bf71ba0a3b556c44fe2b1cffa577bf6721537958c68b19bcfbd5009e282",
+      "markdown_path": "data\\markdown\\53028011485715-How-to-Display-a-Snowflake-Dashboard-with-OptiSigns.md",
+      "last_seen_at": "2026-07-07T18:58:14.565278+00:00",
+      "openai_upload": {
+        "openai_file_id": "file-2pXfyTJXTncBM2Y5wadNFd",
+        "vector_store_file_id": "file-2pXfyTJXTncBM2Y5wadNFd",
+        "vector_store_id": "vs_6a4d3b8079d08191bc47ce2b9f9fd8a3",
+        "estimated_chunks": 3,
+        "uploaded_at": "2026-07-07T18:11:05.070548+00:00"
+      },
+      "gemini_upload": {
+        "file_search_store_name": "fileSearchStores/optibotsupportdocs-p0mr4zehkmoc",
+        "operation_name": "fileSearchStores/optibotsupportdocs-p0mr4zehkmoc/upload/operations/53028011485715howtodisplaya-t8muxfcaxrf7",
+        "estimated_chunks": 4,
+        "uploaded_at": "2026-07-07T18:50:17.470651+00:00"
+      }
+    },
+    "https://support.optisigns.com/hc/en-us/articles/52523606879251-OptiSigns-Digital-Signage-App-for-Zoom-Adding-Using-and-Removing-the-App": {
+      "title": "OptiSigns Digital Signage App for Zoom — Adding, Using, and Removing the App",
+      "url": "https://support.optisigns.com/hc/en-us/articles/52523606879251-OptiSigns-Digital-Signage-App-for-Zoom-Adding-Using-and-Removing-the-App",
+      "slug": "52523606879251-OptiSigns-Digital-Signage-App-for-Zoom-Adding-Using-and-Removing-the-App",
+      "source_updated_at": "2026-06-11T22:24:43Z",
+      "content_hash": "70857627969efc282248189d5f354df66f856ed0634c638e6fde353c917d185f",
+      "markdown_path": "data\\markdown\\52523606879251-OptiSigns-Digital-Signage-App-for-Zoom-Adding-Using-and-Removing-the-App.md",
+      "last_seen_at": "2026-07-07T18:58:15.346662+00:00",
+      "openai_upload": {
+        "openai_file_id": "file-LUSofcCTtHjuXQkhcTJifu",
+        "vector_store_file_id": "file-LUSofcCTtHjuXQkhcTJifu",
+        "vector_store_id": "vs_6a4d3b8079d08191bc47ce2b9f9fd8a3",
+        "estimated_chunks": 3,
+        "uploaded_at": "2026-07-07T18:11:05.070550+00:00"
+      },
+      "gemini_upload": {
+        "file_search_store_name": "fileSearchStores/optibotsupportdocs-p0mr4zehkmoc",
+        "operation_name": "fileSearchStores/optibotsupportdocs-p0mr4zehkmoc/upload/operations/52523606879251optisignsdigi-gpynycf0s1vk",
+        "estimated_chunks": 5,
+        "uploaded_at": "2026-07-07T18:50:17.470654+00:00"
+      }
+    },
+    "https://support.optisigns.com/hc/en-us/articles/52412502456083-Connect-Google-Meet-Hardware-to-OptiSigns-Digital-Signage": {
+      "title": "Connect Google Meet Hardware to OptiSigns Digital Signage",
+      "url": "https://support.optisigns.com/hc/en-us/articles/52412502456083-Connect-Google-Meet-Hardware-to-OptiSigns-Digital-Signage",
+      "slug": "52412502456083-Connect-Google-Meet-Hardware-to-OptiSigns-Digital-Signage",
+      "source_updated_at": "2026-06-15T19:14:07Z",
+      "content_hash": "dc44013b66b5223478b5bd5b554689238063e4ff856610ef0e493f4ee0005ed2",
+      "markdown_path": "data\\markdown\\52412502456083-Connect-Google-Meet-Hardware-to-OptiSigns-Digital-Signage.md",
+      "last_seen_at": "2026-07-07T18:58:16.139855+00:00",
+      "openai_upload": {
+        "openai_file_id": "file-65xueBRMrfSt1sykjdAtjK",
+        "vector_store_file_id": "file-65xueBRMrfSt1sykjdAtjK",
+        "vector_store_id": "vs_6a4d3b8079d08191bc47ce2b9f9fd8a3",
+        "estimated_chunks": 4,
+        "uploaded_at": "2026-07-07T18:11:05.070553+00:00"
+      },
+      "gemini_upload": {
+        "file_search_store_name": "fileSearchStores/optibotsupportdocs-p0mr4zehkmoc",
+        "operation_name": "fileSearchStores/optibotsupportdocs-p0mr4zehkmoc/upload/operations/52412502456083connectgoogle-eug6uwqij691",
+        "estimated_chunks": 6,
+        "uploaded_at": "2026-07-07T18:50:17.470657+00:00"
+      }
+    },
+    "https://support.optisigns.com/hc/en-us/articles/52350277262483-Connect-Microsoft-Teams-Rooms-to-OptiSigns-Digital-Signage": {
+      "title": "Connect Microsoft Teams Rooms to OptiSigns Digital Signage",
+      "url": "https://support.optisigns.com/hc/en-us/articles/52350277262483-Connect-Microsoft-Teams-Rooms-to-OptiSigns-Digital-Signage",
+      "slug": "52350277262483-Connect-Microsoft-Teams-Rooms-to-OptiSigns-Digital-Signage",
+      "source_updated_at": "2026-06-24T18:39:16Z",
+      "content_hash": "006a2d80b6e0a46cce04e735553e0acf3dfdc19f8705ce720dfdd9400bf4a4be",
+      "markdown_path": "data\\markdown\\52350277262483-Connect-Microsoft-Teams-Rooms-to-OptiSigns-Digital-Signage.md",
+      "last_seen_at": "2026-07-07T18:58:16.933238+00:00",
+      "openai_upload": {
+        "openai_file_id": "file-5zZSCw4aAxrBwY5uurTNFd",
+        "vector_store_file_id": "file-5zZSCw4aAxrBwY5uurTNFd",
+        "vector_store_id": "vs_6a4d3b8079d08191bc47ce2b9f9fd8a3",
+        "estimated_chunks": 4,
+        "uploaded_at": "2026-07-07T18:11:05.070555+00:00"
+      },
+      "gemini_upload": {
+        "file_search_store_name": "fileSearchStores/optibotsupportdocs-p0mr4zehkmoc",
+        "operation_name": "fileSearchStores/optibotsupportdocs-p0mr4zehkmoc/upload/operations/52350277262483connectmicros-zulah9nmfh5w",
+        "estimated_chunks": 6,
+        "uploaded_at": "2026-07-07T18:50:17.470660+00:00"
+      }
+    },
+    "https://support.optisigns.com/hc/en-us/articles/52113036672403-Room-Integrations-Turn-Your-Meeting-Rooms-into-Digital-Signage": {
+      "title": "Room Integrations: Turn Your Meeting Rooms into Digital Signage",
+      "url": "https://support.optisigns.com/hc/en-us/articles/52113036672403-Room-Integrations-Turn-Your-Meeting-Rooms-into-Digital-Signage",
+      "slug": "52113036672403-Room-Integrations-Turn-Your-Meeting-Rooms-into-Digital-Signage",
+      "source_updated_at": "2026-06-15T19:14:16Z",
+      "content_hash": "1b4872681bf9de8f2b5b68188225d93cfaf09da59b5bde688742f5922a1ed83c",
+      "markdown_path": "data\\markdown\\52113036672403-Room-Integrations-Turn-Your-Meeting-Rooms-into-Digital-Signage.md",
+      "last_seen_at": "2026-07-07T18:58:17.748709+00:00",
+      "openai_upload": {
+        "openai_file_id": "file-DpQqXjwZizzxR17Tii14bE",
+        "vector_store_file_id": "file-DpQqXjwZizzxR17Tii14bE",
+        "vector_store_id": "vs_6a4d3b8079d08191bc47ce2b9f9fd8a3",
+        "estimated_chunks": 3,
+        "uploaded_at": "2026-07-07T18:11:05.070558+00:00"
+      },
+      "gemini_upload": {
+        "file_search_store_name": "fileSearchStores/optibotsupportdocs-p0mr4zehkmoc",
+        "operation_name": "fileSearchStores/optibotsupportdocs-p0mr4zehkmoc/upload/operations/52113036672403roomintegrati-i5khxted0rlc",
+        "estimated_chunks": 4,
+        "uploaded_at": "2026-07-07T18:50:17.470662+00:00"
+      }
+    },
+    "https://support.optisigns.com/hc/en-us/articles/52069065128723-Connect-Zoom-Rooms-to-OptiSigns-Digital-Signage": {
+      "title": "Connect Zoom Rooms to OptiSigns Digital Signage",
+      "url": "https://support.optisigns.com/hc/en-us/articles/52069065128723-Connect-Zoom-Rooms-to-OptiSigns-Digital-Signage",
+      "slug": "52069065128723-Connect-Zoom-Rooms-to-OptiSigns-Digital-Signage",
+      "source_updated_at": "2026-06-11T22:22:00Z",
+      "content_hash": "100fa0a35a0964e4c399af6f0746f540fcd3a933a9874646398d3a30f1a4ce39",
+      "markdown_path": "data\\markdown\\52069065128723-Connect-Zoom-Rooms-to-OptiSigns-Digital-Signage.md",
+      "last_seen_at": "2026-07-07T18:58:18.533239+00:00",
+      "openai_upload": {
+        "openai_file_id": "file-TPzpCMXSA3CYGD6yPjak4j",
+        "vector_store_file_id": "file-TPzpCMXSA3CYGD6yPjak4j",
+        "vector_store_id": "vs_6a4d3b8079d08191bc47ce2b9f9fd8a3",
+        "estimated_chunks": 4,
+        "uploaded_at": "2026-07-07T18:11:05.070560+00:00"
+      },
+      "gemini_upload": {
+        "file_search_store_name": "fileSearchStores/optibotsupportdocs-p0mr4zehkmoc",
+        "operation_name": "fileSearchStores/optibotsupportdocs-p0mr4zehkmoc/upload/operations/52069065128723connectzoomro-okwxv6xm0879",
+        "estimated_chunks": 6,
+        "uploaded_at": "2026-07-07T18:50:17.470665+00:00"
+      }
+    },
+    "https://support.optisigns.com/hc/en-us/articles/51343184586643-Connect-Cisco-Webex-Rooms-to-OptiSigns-Digital-Signage": {
+      "title": "Connect Cisco Webex Rooms to OptiSigns Digital Signage",
+      "url": "https://support.optisigns.com/hc/en-us/articles/51343184586643-Connect-Cisco-Webex-Rooms-to-OptiSigns-Digital-Signage",
+      "slug": "51343184586643-Connect-Cisco-Webex-Rooms-to-OptiSigns-Digital-Signage",
+      "source_updated_at": "2026-07-01T16:55:46Z",
+      "content_hash": "b4dc8044104d0d1e212b1d8cbd922d5adbe980be26f59872bcebb08140157460",
+      "markdown_path": "data\\markdown\\51343184586643-Connect-Cisco-Webex-Rooms-to-OptiSigns-Digital-Signage.md",
+      "last_seen_at": "2026-07-07T18:58:19.254743+00:00",
+      "openai_upload": {
+        "openai_file_id": "file-4LvbsXbPbDyE9aDE52aqa3",
+        "vector_store_file_id": "file-4LvbsXbPbDyE9aDE52aqa3",
+        "vector_store_id": "vs_6a4d3b8079d08191bc47ce2b9f9fd8a3",
+        "estimated_chunks": 4,
+        "uploaded_at": "2026-07-07T18:11:05.070562+00:00"
+      },
+      "gemini_upload": {
+        "file_search_store_name": "fileSearchStores/optibotsupportdocs-p0mr4zehkmoc",
+        "operation_name": "fileSearchStores/optibotsupportdocs-p0mr4zehkmoc/upload/operations/51343184586643connectciscow-53v3axhwapdb",
+        "estimated_chunks": 6,
+        "uploaded_at": "2026-07-07T18:50:17.470667+00:00"
+      }
+    },
+    "https://support.optisigns.com/hc/en-us/articles/49039295567891-ChromeOS-PWA-Instructions": {
+      "title": "ChromeOS PWA Instructions",
+      "url": "https://support.optisigns.com/hc/en-us/articles/49039295567891-ChromeOS-PWA-Instructions",
+      "slug": "49039295567891-ChromeOS-PWA-Instructions",
+      "source_updated_at": "2026-05-05T15:48:27Z",
+      "content_hash": "d3c1d1a5186ce050d6fbc4349021a4ddd18327a9250bbb8141e6c256d22f35b5",
+      "markdown_path": "data\\markdown\\49039295567891-ChromeOS-PWA-Instructions.md",
+      "last_seen_at": "2026-07-07T18:58:20.025749+00:00",
+      "openai_upload": {
+        "openai_file_id": "file-VWRZeRqqNwSYoEqTNwgReW",
+        "vector_store_file_id": "file-VWRZeRqqNwSYoEqTNwgReW",
+        "vector_store_id": "vs_6a4d3b8079d08191bc47ce2b9f9fd8a3",
+        "estimated_chunks": 3,
+        "uploaded_at": "2026-07-07T18:11:05.070564+00:00"
+      },
+      "gemini_upload": {
+        "file_search_store_name": "fileSearchStores/optibotsupportdocs-p0mr4zehkmoc",
+        "operation_name": "fileSearchStores/optibotsupportdocs-p0mr4zehkmoc/upload/operations/49039295567891chromeospwain-05xa6vzgv5qg",
+        "estimated_chunks": 4,
+        "uploaded_at": "2026-07-07T18:50:17.470670+00:00"
+      }
+    },
+    "https://support.optisigns.com/hc/en-us/articles/48751096814995-How-to-Use-the-Google-Ads-Dashboard-App": {
+      "title": "How to Use the Google Ads Dashboard App",
+      "url": "https://support.optisigns.com/hc/en-us/articles/48751096814995-How-to-Use-the-Google-Ads-Dashboard-App",
+      "slug": "48751096814995-How-to-Use-the-Google-Ads-Dashboard-App",
+      "source_updated_at": "2026-02-02T17:54:16Z",
+      "content_hash": "498585196037b187c2b20c81e0269f4fcc5b967964d079d4609fc45c56be289b",
+      "markdown_path": "data\\markdown\\48751096814995-How-to-Use-the-Google-Ads-Dashboard-App.md",
+      "last_seen_at": "2026-07-07T18:58:20.803088+00:00",
+      "openai_upload": {
+        "openai_file_id": "file-KSUAVjzsCRashvNH9TDWSp",
+        "vector_store_file_id": "file-KSUAVjzsCRashvNH9TDWSp",
+        "vector_store_id": "vs_6a4d3b8079d08191bc47ce2b9f9fd8a3",
+        "estimated_chunks": 3,
+        "uploaded_at": "2026-07-07T18:11:05.070567+00:00"
+      },
+      "gemini_upload": {
+        "file_search_store_name": "fileSearchStores/optibotsupportdocs-p0mr4zehkmoc",
+        "operation_name": "fileSearchStores/optibotsupportdocs-p0mr4zehkmoc/upload/operations/48751096814995howtousethego-jw3fmoa0vp3f",
+        "estimated_chunks": 4,
+        "uploaded_at": "2026-07-07T18:50:17.470672+00:00"
+      }
+    },
+    "https://support.optisigns.com/hc/en-us/articles/48656950622227-How-to-Use-the-Google-Search-Console-App": {
+      "title": "How to Use the Google Search Console App",
+      "url": "https://support.optisigns.com/hc/en-us/articles/48656950622227-How-to-Use-the-Google-Search-Console-App",
+      "slug": "48656950622227-How-to-Use-the-Google-Search-Console-App",
+      "source_updated_at": "2026-02-02T17:56:42Z",
+      "content_hash": "47f31f5dcd638dc2efa743c0218a133d6949f679d6c0bdf55311ad87cb20ca86",
+      "markdown_path": "data\\markdown\\48656950622227-How-to-Use-the-Google-Search-Console-App.md",
+      "last_seen_at": "2026-07-07T18:58:21.559107+00:00",
+      "openai_upload": {
+        "openai_file_id": "file-LXdkEvxCDDLakeairv6eg1",
+        "vector_store_file_id": "file-LXdkEvxCDDLakeairv6eg1",
+        "vector_store_id": "vs_6a4d3b8079d08191bc47ce2b9f9fd8a3",
+        "estimated_chunks": 3,
+        "uploaded_at": "2026-07-07T18:11:05.070570+00:00"
+      },
+      "gemini_upload": {
+        "file_search_store_name": "fileSearchStores/optibotsupportdocs-p0mr4zehkmoc",
+        "operation_name": "fileSearchStores/optibotsupportdocs-p0mr4zehkmoc/upload/operations/48656950622227howtousethego-967tw5pazf5q",
+        "estimated_chunks": 4,
+        "uploaded_at": "2026-07-07T18:50:17.470674+00:00"
+      }
+    },
+    "https://support.optisigns.com/hc/en-us/articles/48626115821459-How-to-Use-the-YouTube-Dashboard-App": {
+      "title": "How to Use the YouTube Dashboard App",
+      "url": "https://support.optisigns.com/hc/en-us/articles/48626115821459-How-to-Use-the-YouTube-Dashboard-App",
+      "slug": "48626115821459-How-to-Use-the-YouTube-Dashboard-App",
+      "source_updated_at": "2026-02-02T15:32:55Z",
+      "content_hash": "4325c9b8a89bde36ea34e575f2630c991bd2bc9df92cc3a0f47f655d7abb88e8",
+      "markdown_path": "data\\markdown\\48626115821459-How-to-Use-the-YouTube-Dashboard-App.md",
+      "last_seen_at": "2026-07-07T18:58:22.313767+00:00",
+      "openai_upload": {
+        "openai_file_id": "file-DCa1nJNP39bZgok9CymoAp",
+        "vector_store_file_id": "file-DCa1nJNP39bZgok9CymoAp",
+        "vector_store_id": "vs_6a4d3b8079d08191bc47ce2b9f9fd8a3",
+        "estimated_chunks": 2,
+        "uploaded_at": "2026-07-07T18:11:05.070572+00:00"
+      },
+      "gemini_upload": {
+        "file_search_store_name": "fileSearchStores/optibotsupportdocs-p0mr4zehkmoc",
+        "operation_name": "fileSearchStores/optibotsupportdocs-p0mr4zehkmoc/upload/operations/48626115821459howtousetheyo-klx4vvqhjfz9",
+        "estimated_chunks": 4,
+        "uploaded_at": "2026-07-07T18:50:17.470677+00:00"
+      }
+    },
+    "https://support.optisigns.com/hc/en-us/articles/48241081473043-Operational-Schedule-Troubleshooting": {
+      "title": "Operational Schedule Troubleshooting",
+      "url": "https://support.optisigns.com/hc/en-us/articles/48241081473043-Operational-Schedule-Troubleshooting",
+      "slug": "48241081473043-Operational-Schedule-Troubleshooting",
+      "source_updated_at": "2026-04-20T21:26:17Z",
+      "content_hash": "05874da966a03dc7db90e9678de58b901eb6a73ddd7762586ad6cd2f02530693",
+      "markdown_path": "data\\markdown\\48241081473043-Operational-Schedule-Troubleshooting.md",
+      "last_seen_at": "2026-07-07T18:58:23.034433+00:00",
+      "openai_upload": {
+        "openai_file_id": "file-J2pi75MQGQDXkvv98AnnWM",
+        "vector_store_file_id": "file-J2pi75MQGQDXkvv98AnnWM",
+        "vector_store_id": "vs_6a4d3b8079d08191bc47ce2b9f9fd8a3",
+        "estimated_chunks": 3,
+        "uploaded_at": "2026-07-07T18:11:05.070574+00:00"
+      },
+      "gemini_upload": {
+        "file_search_store_name": "fileSearchStores/optibotsupportdocs-p0mr4zehkmoc",
+        "operation_name": "fileSearchStores/optibotsupportdocs-p0mr4zehkmoc/upload/operations/48241081473043operationalsc-f2bm2dqm9cxi",
+        "estimated_chunks": 5,
+        "uploaded_at": "2026-07-07T18:50:17.470679+00:00"
+      }
+    },
+    "https://support.optisigns.com/hc/en-us/articles/47616485609491-How-to-Use-the-OptiDev-App": {
+      "title": "How to Use the OptiDev App",
+      "url": "https://support.optisigns.com/hc/en-us/articles/47616485609491-How-to-Use-the-OptiDev-App",
+      "slug": "47616485609491-How-to-Use-the-OptiDev-App",
+      "source_updated_at": "2026-02-11T23:03:49Z",
+      "content_hash": "a92db8cc04c6382bcec3acafc450ce5cb204964977f6618f91df175e73cc8144",
+      "markdown_path": "data\\markdown\\47616485609491-How-to-Use-the-OptiDev-App.md",
+      "last_seen_at": "2026-07-07T18:58:23.803533+00:00",
+      "openai_upload": {
+        "openai_file_id": "file-V1bwV2NKNnhHfBHSHiqCff",
+        "vector_store_file_id": "file-V1bwV2NKNnhHfBHSHiqCff",
+        "vector_store_id": "vs_6a4d3b8079d08191bc47ce2b9f9fd8a3",
+        "estimated_chunks": 2,
+        "uploaded_at": "2026-07-07T18:11:05.070576+00:00"
+      },
+      "gemini_upload": {
+        "file_search_store_name": "fileSearchStores/optibotsupportdocs-p0mr4zehkmoc",
+        "operation_name": "fileSearchStores/optibotsupportdocs-p0mr4zehkmoc/upload/operations/47616485609491howtousetheop-nl1qwxkbpkuo",
+        "estimated_chunks": 3,
+        "uploaded_at": "2026-07-07T18:50:17.470682+00:00"
+      }
+    },
+    "https://support.optisigns.com/hc/en-us/articles/45619214182803-How-to-Set-Up-an-Outlook-Calendar-App-with-Shared-Permissions": {
+      "title": "How to Set Up an Outlook Calendar App with Shared Permissions",
+      "url": "https://support.optisigns.com/hc/en-us/articles/45619214182803-How-to-Set-Up-an-Outlook-Calendar-App-with-Shared-Permissions",
+      "slug": "45619214182803-How-to-Set-Up-an-Outlook-Calendar-App-with-Shared-Permissions",
+      "source_updated_at": "2025-10-17T16:01:18Z",
+      "content_hash": "489a6dc2339a99c1a35eae7707f199addc82820d7555cf39a3e9517b5e94daf6",
+      "markdown_path": "data\\markdown\\45619214182803-How-to-Set-Up-an-Outlook-Calendar-App-with-Shared-Permissions.md",
+      "last_seen_at": "2026-07-07T18:58:24.528291+00:00",
+      "openai_upload": {
+        "openai_file_id": "file-HJxGGyhJwfftdw1MtnJWqu",
+        "vector_store_file_id": "file-HJxGGyhJwfftdw1MtnJWqu",
+        "vector_store_id": "vs_6a4d3b8079d08191bc47ce2b9f9fd8a3",
+        "estimated_chunks": 2,
+        "uploaded_at": "2026-07-07T18:11:05.070578+00:00"
+      },
+      "gemini_upload": {
+        "file_search_store_name": "fileSearchStores/optibotsupportdocs-p0mr4zehkmoc",
+        "operation_name": "fileSearchStores/optibotsupportdocs-p0mr4zehkmoc/upload/operations/45619214182803howtosetupano-l6te6rl3wdkn",
+        "estimated_chunks": 3,
+        "uploaded_at": "2026-07-07T18:50:17.470684+00:00"
+      }
+    },
+    "https://support.optisigns.com/hc/en-us/articles/44890229616403-Using-an-Enterprise-Network-802-1x-with-OptiSigns": {
+      "title": "Using an Enterprise Network (802.1x) with OptiSigns",
+      "url": "https://support.optisigns.com/hc/en-us/articles/44890229616403-Using-an-Enterprise-Network-802-1x-with-OptiSigns",
+      "slug": "44890229616403-Using-an-Enterprise-Network-802-1x-with-OptiSigns",
+      "source_updated_at": "2026-05-20T18:11:11Z",
+      "content_hash": "c26470eea3d4e91b807fa1048f4478076695663aff7051ade6f5270a15cfab76",
+      "markdown_path": "data\\markdown\\44890229616403-Using-an-Enterprise-Network-802-1x-with-OptiSigns.md",
+      "last_seen_at": "2026-07-07T18:58:25.270335+00:00",
+      "openai_upload": {
+        "openai_file_id": "file-AgHohvpYaZkEAkMyh5bEEu",
+        "vector_store_file_id": "file-AgHohvpYaZkEAkMyh5bEEu",
+        "vector_store_id": "vs_6a4d3b8079d08191bc47ce2b9f9fd8a3",
+        "estimated_chunks": 2,
+        "uploaded_at": "2026-07-07T18:11:05.070580+00:00"
+      },
+      "gemini_upload": {
+        "file_search_store_name": "fileSearchStores/optibotsupportdocs-p0mr4zehkmoc",
+        "operation_name": "fileSearchStores/optibotsupportdocs-p0mr4zehkmoc/upload/operations/44890229616403usinganenterp-vqv80phxaq5w",
+        "estimated_chunks": 3,
+        "uploaded_at": "2026-07-07T18:50:17.470686+00:00"
+      }
+    },
+    "https://support.optisigns.com/hc/en-us/articles/43657735780627-User-Management-Example-Chain-Restaurant-or-Retail-Store-with-Multiple-Locations": {
+      "title": "User Management Example - Chain Restaurant or Retail Store with Multiple Locations",
+      "url": "https://support.optisigns.com/hc/en-us/articles/43657735780627-User-Management-Example-Chain-Restaurant-or-Retail-Store-with-Multiple-Locations",
+      "slug": "43657735780627-User-Management-Example-Chain-Restaurant-or-Retail-Store-with-Multiple-Locations",
+      "source_updated_at": "2025-08-28T19:28:55Z",
+      "content_hash": "d1e105a7d9ed9c5401fa119c8b8a9846fc54dfd216d42fb0503a0eff7e0e9595",
+      "markdown_path": "data\\markdown\\43657735780627-User-Management-Example-Chain-Restaurant-or-Retail-Store-with-Multiple-Locations.md",
+      "last_seen_at": "2026-07-07T18:58:26.014368+00:00",
+      "openai_upload": {
+        "openai_file_id": "file-7YyXeiZWNDkQc3ybj2qzoR",
+        "vector_store_file_id": "file-7YyXeiZWNDkQc3ybj2qzoR",
+        "vector_store_id": "vs_6a4d3b8079d08191bc47ce2b9f9fd8a3",
+        "estimated_chunks": 5,
+        "uploaded_at": "2026-07-07T18:11:05.070582+00:00"
+      },
+      "gemini_upload": {
+        "file_search_store_name": "fileSearchStores/optibotsupportdocs-p0mr4zehkmoc",
+        "operation_name": "fileSearchStores/optibotsupportdocs-p0mr4zehkmoc/upload/operations/43657735780627usermanagemen-eg5qhzyvzf2s",
+        "estimated_chunks": 8,
+        "uploaded_at": "2026-07-07T18:50:17.470689+00:00"
+      }
+    },
+    "https://support.optisigns.com/hc/en-us/articles/42087942047379-Getting-Started-with-Designer": {
+      "title": "Getting Started with Designer",
+      "url": "https://support.optisigns.com/hc/en-us/articles/42087942047379-Getting-Started-with-Designer",
+      "slug": "42087942047379-Getting-Started-with-Designer",
+      "source_updated_at": "2025-10-07T17:18:32Z",
+      "content_hash": "db9bfa3286f21917ccd4adad5ea768ad69f0f381ca9cbf1386964fcd937d196a",
+      "markdown_path": "data\\markdown\\42087942047379-Getting-Started-with-Designer.md",
+      "last_seen_at": "2026-07-07T18:58:27.286064+00:00",
+      "openai_upload": {
+        "openai_file_id": "file-S6exU1UDP2gusWebcgesSj",
+        "vector_store_file_id": "file-S6exU1UDP2gusWebcgesSj",
+        "vector_store_id": "vs_6a4d3b8079d08191bc47ce2b9f9fd8a3",
+        "estimated_chunks": 6,
+        "uploaded_at": "2026-07-07T18:11:05.070584+00:00"
+      },
+      "gemini_upload": {
+        "file_search_store_name": "fileSearchStores/optibotsupportdocs-p0mr4zehkmoc",
+        "operation_name": "fileSearchStores/optibotsupportdocs-p0mr4zehkmoc/upload/operations/42087942047379gettingstarte-y624xezf60wn",
+        "estimated_chunks": 9,
+        "uploaded_at": "2026-07-07T18:50:17.470691+00:00"
+      }
+    },
+    "https://support.optisigns.com/hc/en-us/articles/41432385864595-Designer-2-0-New-Features": {
+      "title": "Designer 2.0 New Features",
+      "url": "https://support.optisigns.com/hc/en-us/articles/41432385864595-Designer-2-0-New-Features",
+      "slug": "41432385864595-Designer-2-0-New-Features",
+      "source_updated_at": "2026-05-12T14:17:09Z",
+      "content_hash": "0d782b990514d2dfb451390bd1acfe050e7a743d150f12240303fdee7145e9b9",
+      "markdown_path": "data\\markdown\\41432385864595-Designer-2-0-New-Features.md",
+      "last_seen_at": "2026-07-07T18:58:28.624039+00:00",
+      "openai_upload": {
+        "openai_file_id": "file-VuMGGbt2urw1y1Ayng4Q2K",
+        "vector_store_file_id": "file-VuMGGbt2urw1y1Ayng4Q2K",
+        "vector_store_id": "vs_6a4d3b8079d08191bc47ce2b9f9fd8a3",
+        "estimated_chunks": 5,
+        "uploaded_at": "2026-07-07T18:11:05.070587+00:00"
+      },
+      "gemini_upload": {
+        "file_search_store_name": "fileSearchStores/optibotsupportdocs-p0mr4zehkmoc",
+        "operation_name": "fileSearchStores/optibotsupportdocs-p0mr4zehkmoc/upload/operations/41432385864595designer20new-jftx35ieujdn",
+        "estimated_chunks": 7,
+        "uploaded_at": "2026-07-07T18:50:17.470693+00:00"
+      }
+    },
+    "https://support.optisigns.com/hc/en-us/articles/40736654972563-OptiSigns-Pro-ProMax-Player-Troubleshooting-Guide": {
+      "title": "OptiSigns Pro/ProMax Player Troubleshooting Guide",
+      "url": "https://support.optisigns.com/hc/en-us/articles/40736654972563-OptiSigns-Pro-ProMax-Player-Troubleshooting-Guide",
+      "slug": "40736654972563-OptiSigns-Pro-ProMax-Player-Troubleshooting-Guide",
+      "source_updated_at": "2026-01-13T21:20:16Z",
+      "content_hash": "0f4a8364a7d0351317dbe939356fb6ca5cb31a3f293a3f3c6a4ec3c0b3a44337",
+      "markdown_path": "data\\markdown\\40736654972563-OptiSigns-Pro-ProMax-Player-Troubleshooting-Guide.md",
+      "last_seen_at": "2026-07-07T18:58:29.390717+00:00",
+      "openai_upload": {
+        "openai_file_id": "file-8W5RyEaZa17K7gcch3zKrp",
+        "vector_store_file_id": "file-8W5RyEaZa17K7gcch3zKrp",
+        "vector_store_id": "vs_6a4d3b8079d08191bc47ce2b9f9fd8a3",
+        "estimated_chunks": 4,
+        "uploaded_at": "2026-07-07T18:11:05.070589+00:00"
+      },
+      "gemini_upload": {
+        "file_search_store_name": "fileSearchStores/optibotsupportdocs-p0mr4zehkmoc",
+        "operation_name": "fileSearchStores/optibotsupportdocs-p0mr4zehkmoc/upload/operations/40736654972563optisignsprop-556qkw2zmhb9",
+        "estimated_chunks": 6,
+        "uploaded_at": "2026-07-07T18:50:17.470696+00:00"
+      }
+    },
+    "https://support.optisigns.com/hc/en-us/articles/40671590645651-How-to-Play-Licensed-Background-Music-on-Digital-Signs-with-OptiSound": {
+      "title": "How to Play Licensed Background Music on Digital Signs with OptiSound",
+      "url": "https://support.optisigns.com/hc/en-us/articles/40671590645651-How-to-Play-Licensed-Background-Music-on-Digital-Signs-with-OptiSound",
+      "slug": "40671590645651-How-to-Play-Licensed-Background-Music-on-Digital-Signs-with-OptiSound",
+      "source_updated_at": "2026-04-08T22:33:37Z",
+      "content_hash": "cdb63e615d6ac9ad47c50f9f9cf042f991025be11ce978f2ce093ed2c8a576b0",
+      "markdown_path": "data\\markdown\\40671590645651-How-to-Play-Licensed-Background-Music-on-Digital-Signs-with-OptiSound.md",
+      "last_seen_at": "2026-07-07T18:58:30.157186+00:00",
+      "openai_upload": {
+        "openai_file_id": "file-CMsZ7GQuiBkgcLHcBkQARx",
+        "vector_store_file_id": "file-CMsZ7GQuiBkgcLHcBkQARx",
+        "vector_store_id": "vs_6a4d3b8079d08191bc47ce2b9f9fd8a3",
+        "estimated_chunks": 2,
+        "uploaded_at": "2026-07-07T18:11:05.070591+00:00"
+      },
+      "gemini_upload": {
+        "file_search_store_name": "fileSearchStores/optibotsupportdocs-p0mr4zehkmoc",
+        "operation_name": "fileSearchStores/optibotsupportdocs-p0mr4zehkmoc/upload/operations/40671590645651howtoplaylice-boau52g0oj7u",
+        "estimated_chunks": 3,
+        "uploaded_at": "2026-07-07T18:50:17.470698+00:00"
+      }
+    },
+    "https://support.optisigns.com/hc/en-us/articles/40212027797523-Disk-Encryption": {
+      "title": "Disk Encryption",
+      "url": "https://support.optisigns.com/hc/en-us/articles/40212027797523-Disk-Encryption",
+      "slug": "40212027797523-Disk-Encryption",
+      "source_updated_at": "2025-09-04T16:19:23Z",
+      "content_hash": "19e6e8334a8aca68f7ca8d02c6e05a278727300ecc2c8c86602a3c175797a763",
+      "markdown_path": "data\\markdown\\40212027797523-Disk-Encryption.md",
+      "last_seen_at": "2026-07-07T18:58:30.880370+00:00",
+      "openai_upload": {
+        "openai_file_id": "file-Cs1SR3Wdr77YQhnECaSJ2A",
+        "vector_store_file_id": "file-Cs1SR3Wdr77YQhnECaSJ2A",
+        "vector_store_id": "vs_6a4d3b8079d08191bc47ce2b9f9fd8a3",
+        "estimated_chunks": 2,
+        "uploaded_at": "2026-07-07T18:11:05.070593+00:00"
+      },
+      "gemini_upload": {
+        "file_search_store_name": "fileSearchStores/optibotsupportdocs-p0mr4zehkmoc",
+        "operation_name": "fileSearchStores/optibotsupportdocs-p0mr4zehkmoc/upload/operations/40212027797523diskencryptio-ok1cmetbdtl1",
+        "estimated_chunks": 2,
+        "uploaded_at": "2026-07-07T18:50:17.470701+00:00"
+      }
+    },
+    "https://support.optisigns.com/hc/en-us/articles/40147900639891-OptiStick-Troubleshooting-Guide": {
+      "title": "OptiStick Troubleshooting Guide",
+      "url": "https://support.optisigns.com/hc/en-us/articles/40147900639891-OptiStick-Troubleshooting-Guide",
+      "slug": "40147900639891-OptiStick-Troubleshooting-Guide",
+      "source_updated_at": "2026-06-26T13:52:36Z",
+      "content_hash": "55c59e5ac7be9b35ee0ba5f03cc4b90d9727b8e28b451cb4d73243039dace685",
+      "markdown_path": "data\\markdown\\40147900639891-OptiStick-Troubleshooting-Guide.md",
+      "last_seen_at": "2026-07-07T18:58:31.640358+00:00",
+      "openai_upload": {
+        "openai_file_id": "file-PiLqturVX7FpPt1oxYzK6T",
+        "vector_store_file_id": "file-PiLqturVX7FpPt1oxYzK6T",
+        "vector_store_id": "vs_6a4d3b8079d08191bc47ce2b9f9fd8a3",
+        "estimated_chunks": 6,
+        "uploaded_at": "2026-07-07T18:11:05.070596+00:00"
+      },
+      "gemini_upload": {
+        "file_search_store_name": "fileSearchStores/optibotsupportdocs-p0mr4zehkmoc",
+        "operation_name": "fileSearchStores/optibotsupportdocs-p0mr4zehkmoc/upload/operations/40147900639891optisticktrou-0nhohynkpd6o",
+        "estimated_chunks": 8,
+        "uploaded_at": "2026-07-07T18:50:17.470703+00:00"
+      }
+    },
+    "https://support.optisigns.com/hc/en-us/articles/39488874989587-Fixing-Unexpected-Screen-Rotation-Incorrect-Orientation-with-OptiSigns-Android-Stick": {
+      "title": "Fixing Unexpected Screen Rotation & Incorrect Orientation with OptiSigns Android Stick",
+      "url": "https://support.optisigns.com/hc/en-us/articles/39488874989587-Fixing-Unexpected-Screen-Rotation-Incorrect-Orientation-with-OptiSigns-Android-Stick",
+      "slug": "39488874989587-Fixing-Unexpected-Screen-Rotation-Incorrect-Orientation-with-OptiSigns-Android-Stick",
+      "source_updated_at": "2025-09-04T15:25:54Z",
+      "content_hash": "b8a06efe2356fd4e9cd9960a8aecd9a1dcbc1403b9a2b0ccafaa9ce1f6206a3d",
+      "markdown_path": "data\\markdown\\39488874989587-Fixing-Unexpected-Screen-Rotation-Incorrect-Orientation-with-OptiSigns-Android-Stick.md",
+      "last_seen_at": "2026-07-07T18:58:32.384028+00:00",
+      "openai_upload": {
+        "openai_file_id": "file-5EUGkL4gerzLywAtvAhJqA",
+        "vector_store_file_id": "file-5EUGkL4gerzLywAtvAhJqA",
+        "vector_store_id": "vs_6a4d3b8079d08191bc47ce2b9f9fd8a3",
+        "estimated_chunks": 1,
+        "uploaded_at": "2026-07-07T18:11:05.070598+00:00"
+      },
+      "gemini_upload": {
+        "file_search_store_name": "fileSearchStores/optibotsupportdocs-p0mr4zehkmoc",
+        "operation_name": "fileSearchStores/optibotsupportdocs-p0mr4zehkmoc/upload/operations/39488874989587fixingunexpec-9gv82uac07fb",
+        "estimated_chunks": 1,
+        "uploaded_at": "2026-07-07T18:50:17.470705+00:00"
+      }
+    },
+    "https://support.optisigns.com/hc/en-us/articles/39250660729747-How-to-Use-the-Tableau-App": {
+      "title": "How to Use the Tableau App",
+      "url": "https://support.optisigns.com/hc/en-us/articles/39250660729747-How-to-Use-the-Tableau-App",
+      "slug": "39250660729747-How-to-Use-the-Tableau-App",
+      "source_updated_at": "2026-01-06T22:36:49Z",
+      "content_hash": "3fb3eeb4448242aa56763d21b177eb5519d94b84033c508b80baa0cc18b593dd",
+      "markdown_path": "data\\markdown\\39250660729747-How-to-Use-the-Tableau-App.md",
+      "last_seen_at": "2026-07-07T18:58:33.132666+00:00",
+      "openai_upload": {
+        "openai_file_id": "file-BkVVVaFFnDSYkbR9VG9HHP",
+        "vector_store_file_id": "file-BkVVVaFFnDSYkbR9VG9HHP",
+        "vector_store_id": "vs_6a4d3b8079d08191bc47ce2b9f9fd8a3",
+        "estimated_chunks": 4,
+        "uploaded_at": "2026-07-07T18:11:05.070600+00:00"
+      },
+      "gemini_upload": {
+        "file_search_store_name": "fileSearchStores/optibotsupportdocs-p0mr4zehkmoc",
+        "operation_name": "fileSearchStores/optibotsupportdocs-p0mr4zehkmoc/upload/operations/39250660729747howtousetheta-x1nh4bj2nymh",
+        "estimated_chunks": 6,
+        "uploaded_at": "2026-07-07T18:50:17.470707+00:00"
+      }
+    },
+    "https://support.optisigns.com/hc/en-us/articles/39080869746067-Handle-OAuth-Authentication-using-API-Gateway-Pre-request-Configuration": {
+      "title": "Handle OAuth Authentication using API Gateway Pre-request Configuration",
+      "url": "https://support.optisigns.com/hc/en-us/articles/39080869746067-Handle-OAuth-Authentication-using-API-Gateway-Pre-request-Configuration",
+      "slug": "39080869746067-Handle-OAuth-Authentication-using-API-Gateway-Pre-request-Configuration",
+      "source_updated_at": "2025-08-28T18:42:06Z",
+      "content_hash": "73bd5a34ddcce158c8233baa30515ddf0ea708b0b0fc62de5c67e8112ac88254",
+      "markdown_path": "data\\markdown\\39080869746067-Handle-OAuth-Authentication-using-API-Gateway-Pre-request-Configuration.md",
+      "last_seen_at": "2026-07-07T18:58:33.857445+00:00",
+      "openai_upload": {
+        "openai_file_id": "file-BXXGA3GHw3HovoQvEc1iKp",
+        "vector_store_file_id": "file-BXXGA3GHw3HovoQvEc1iKp",
+        "vector_store_id": "vs_6a4d3b8079d08191bc47ce2b9f9fd8a3",
+        "estimated_chunks": 1,
+        "uploaded_at": "2026-07-07T18:11:05.070602+00:00"
+      },
+      "gemini_upload": {
+        "file_search_store_name": "fileSearchStores/optibotsupportdocs-p0mr4zehkmoc",
+        "operation_name": "fileSearchStores/optibotsupportdocs-p0mr4zehkmoc/upload/operations/39080869746067handleoauthau-9r76dv0mny8b",
+        "estimated_chunks": 2,
+        "uploaded_at": "2026-07-07T18:50:17.470710+00:00"
+      }
+    },
+    "https://support.optisigns.com/hc/en-us/articles/38062664690195-Tagging-in-OptiSigns": {
+      "title": "Tagging in OptiSigns",
+      "url": "https://support.optisigns.com/hc/en-us/articles/38062664690195-Tagging-in-OptiSigns",
+      "slug": "38062664690195-Tagging-in-OptiSigns",
+      "source_updated_at": "2025-09-09T19:34:07Z",
+      "content_hash": "4f5a5d5f48b303ea9ae4da98ee0e7d1e4e05f64da155a6309ddc38593a6637da",
+      "markdown_path": "data\\markdown\\38062664690195-Tagging-in-OptiSigns.md",
+      "last_seen_at": "2026-07-07T18:58:35.099419+00:00",
+      "openai_upload": {
+        "openai_file_id": "file-SUwvyydxiwsnZJeK69LvZ2",
+        "vector_store_file_id": "file-SUwvyydxiwsnZJeK69LvZ2",
+        "vector_store_id": "vs_6a4d3b8079d08191bc47ce2b9f9fd8a3",
+        "estimated_chunks": 4,
+        "uploaded_at": "2026-07-07T18:11:05.070605+00:00"
+      },
+      "gemini_upload": {
+        "file_search_store_name": "fileSearchStores/optibotsupportdocs-p0mr4zehkmoc",
+        "operation_name": "fileSearchStores/optibotsupportdocs-p0mr4zehkmoc/upload/operations/38062664690195tagginginopti-lqh3qqy5y6g9",
+        "estimated_chunks": 6,
+        "uploaded_at": "2026-07-07T18:50:17.470712+00:00"
+      }
+    },
+    "https://support.optisigns.com/hc/en-us/articles/37966066335891-Getting-Started-with-an-OptiSigns-Free-Trial": {
+      "title": "Getting Started with an OptiSigns Free Trial",
+      "url": "https://support.optisigns.com/hc/en-us/articles/37966066335891-Getting-Started-with-an-OptiSigns-Free-Trial",
+      "slug": "37966066335891-Getting-Started-with-an-OptiSigns-Free-Trial",
+      "source_updated_at": "2025-09-04T18:44:24Z",
+      "content_hash": "35639c1f1517b3efc024294889e8f4780f2af1ac9b0df4ae6bd2212a15de360b",
+      "markdown_path": "data\\markdown\\37966066335891-Getting-Started-with-an-OptiSigns-Free-Trial.md",
+      "last_seen_at": "2026-07-07T18:58:35.919477+00:00",
+      "openai_upload": {
+        "openai_file_id": "file-B2iyBnhspk6ddbkAjEZ6ns",
+        "vector_store_file_id": "file-B2iyBnhspk6ddbkAjEZ6ns",
+        "vector_store_id": "vs_6a4d3b8079d08191bc47ce2b9f9fd8a3",
+        "estimated_chunks": 2,
+        "uploaded_at": "2026-07-07T18:11:05.070607+00:00"
+      },
+      "gemini_upload": {
+        "file_search_store_name": "fileSearchStores/optibotsupportdocs-p0mr4zehkmoc",
+        "operation_name": "fileSearchStores/optibotsupportdocs-p0mr4zehkmoc/upload/operations/37966066335891gettingstarte-hlepv5uqyz66",
+        "estimated_chunks": 3,
+        "uploaded_at": "2026-07-07T18:50:17.470714+00:00"
+      }
+    },
+    "https://support.optisigns.com/hc/en-us/articles/36911639377683-How-to-Use-OptiSigns-with-Microsoft-Teams-Rooms": {
+      "title": "How to Use OptiSigns with Microsoft Teams Rooms",
+      "url": "https://support.optisigns.com/hc/en-us/articles/36911639377683-How-to-Use-OptiSigns-with-Microsoft-Teams-Rooms",
+      "slug": "36911639377683-How-to-Use-OptiSigns-with-Microsoft-Teams-Rooms",
+      "source_updated_at": "2025-09-04T18:42:32Z",
+      "content_hash": "6024d98e4d9b815dbe02d72fc072fd4288bce8a49eaf462c6c7b0b683c39f819",
+      "markdown_path": "data\\markdown\\36911639377683-How-to-Use-OptiSigns-with-Microsoft-Teams-Rooms.md",
+      "last_seen_at": "2026-07-07T18:58:36.642473+00:00",
+      "openai_upload": {
+        "openai_file_id": "file-UDWSGvXUuVqYLHgdmxi1rr",
+        "vector_store_file_id": "file-UDWSGvXUuVqYLHgdmxi1rr",
+        "vector_store_id": "vs_6a4d3b8079d08191bc47ce2b9f9fd8a3",
+        "estimated_chunks": 2,
+        "uploaded_at": "2026-07-07T18:11:05.070609+00:00"
+      },
+      "gemini_upload": {
+        "file_search_store_name": "fileSearchStores/optibotsupportdocs-p0mr4zehkmoc",
+        "operation_name": "fileSearchStores/optibotsupportdocs-p0mr4zehkmoc/upload/operations/36911639377683howtouseoptis-uxrogr3eoyfd",
+        "estimated_chunks": 4,
+        "uploaded_at": "2026-07-07T18:50:17.470716+00:00"
+      }
+    }
+  }
+}
