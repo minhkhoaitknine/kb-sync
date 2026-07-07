@@ -51,4 +51,4 @@ GEMINI_API_KEY
 GEMINI_FILE_SEARCH_STORE_NAME
 ```
 
-Screenshot: add the assistant answer screenshot under `screenshots/` before final submission.
+CI tests run in `.github/workflows/ci.yml`. Screenshot: add the assistant answer screenshot under `screenshots/` before final submission. See `SUBMISSION_NOTES.md` for final review notes.
